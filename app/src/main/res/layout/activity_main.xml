@@ -8,10 +8,18 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <TextView
+        android:id="@+id/anotherText_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="24dp"
+        />
+
+    <TextView
         android:id="@+id/text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/question_text"
+        android:text="Score"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="24dp"
         />
@@ -35,6 +43,39 @@
             android:text="@string/false_button"
             android:textColor="@color/colorPrimaryDark"
             android:background="@color/colorAccent"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:id="@+id/next_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/button_n_crappy"
+
+            />
+        <ImageButton
+            android:id="@+id/previous_question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/button_p_crappy"
+            android:contentDescription="Previous"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/hint_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimaryDark"
+            android:background="@color/colorAccent"
+            android:text="hint"/>
+
     </LinearLayout>
 
 </LinearLayout>

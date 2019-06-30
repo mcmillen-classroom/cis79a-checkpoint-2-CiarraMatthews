@@ -6,9 +6,17 @@
     <string name="true_button">true</string>
     <string name="false_button">false</string>
 
-    <string name="question_1">Does your mom cook me dinner?</string>
-    <string name="question_2">Deez nutz?</string>
-    <string name="question_3">Your face, your butt. What is the difference?</string>
-    <string name="question_4">How many programmers does it take to screw in a lightbulb?</string>
-    <string name="question_5">What is egg?</string>
+    <string name="previous_question">previous</string>
+    <string name="next_button">next</string>
+
+    <string name="question_1">Is All Might Deku\'s biggest inspiration?</string>
+    <string name="question_2">Tsuyu\'s Hero name is Froppy?</string>
+    <string name="question_3">Is Yaomomo the shortest female character?</string>
+    <string name="question_4">Mina\'s quirk is super speed?</string>
+    <string name="question_5">Does Aizawa share a voice actor with Dandy of Space Dandy?</string>
+    <string name="hint_1">All Might is the number one Hero in Japan, where Deku lives</string>>
+    <string name="hint_2">Tsuyu is a frog girl</string>>
+    <string name="hint_3">Yaomomo is taller than at least 2 male characters</string>>
+    <string name="hint_4">Mina is not faster than Iida</string>>
+    <string name="hint_5">Aizawa\'s voice actor is popular in the industry</string>>
 </resources>
